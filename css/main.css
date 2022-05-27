@@ -1,0 +1,169 @@
+:root {
+    /* Colores */
+    --my-white: #ecf0f0;
+    --almost-black: #262626;
+    --primary-color: #B3001B;
+    --secondary-color: #255C99;
+    --light-sec-color: #7EA3CC;
+    --light-prim-color: #CCAD8F;
+
+    --sm: 1rem;
+    --md: 1.2rem;
+    --lg: 2rem;
+    --xl: 2.5rem;
+    --xxl: 5rem;
+
+    /* Fuentes */
+    --title: "Playfair Display";
+    --body: "Poppins";
+}
+body {
+    margin: 0;
+    padding: 0;
+    /* position: fixed; PARA QUE NO SE MUEVA LA PANTALLA Y OCUPE TODA e
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0; */
+    font-family: var(--body);
+    font-weight: 600 ;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    display: inline;
+    color: var(--almost-black);
+}
+html {
+    font-size: 62.5%;
+    background-color: #eae8e5;
+}
+
+header{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    flex: auto auto auto;
+}
+.nav-logo-container {
+    width: 70px;
+    height: 70px;
+    background-color: var(--primary-color);
+    position: relative;
+    margin-left: 10px;
+}
+.nav-logo-container a{
+    font-family: var(--title);
+    font-weight: 700;
+    color: #eae8e5;
+    position: absolute;
+    bottom: 0;
+}
+.nav-logo-container a p{
+    margin: 0;
+    position: absolute;  
+    font-size: 15px; 
+}
+.nav-logo-container a p:first-child{
+    bottom: 7px;
+    left: 11px;
+}
+.nav-logo-container a p:last-child{
+    bottom: -1px;  
+    left: 5px; 
+}
+nav  {
+    margin-left: 10px;
+    display: flex;
+    align-self: center;
+}
+
+nav .profile-link a{
+    border-bottom: 1px solid var(--primary-color);
+}
+
+header .header-icon-container {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end; 
+}
+
+header .header-icon-container a {
+    color: var(--primary-color);
+}
+
+header .header-icon-container .icons {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-items: flex-end;
+    align-items: center;
+    justify-content:space-around;
+    justify-self: center;
+    
+}
+
+
+.home-main .home-main-banner-container {
+    width: 100%;
+    height: calc(100vh - 60px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(../img/codigo.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    align-items: center;
+    color: white;
+}
+
+.home-main .home-main-banner-container h2 {
+    font-size: var(--lg);
+    margin-bottom: 0;
+    text-shadow: #262626;
+}
+.home-main .home-main-banner-container p {
+    margin-top: 0;
+}
+
+.home-main .home-main-banner-container button {
+    padding: 8px 10px;
+    background-color: var(--primary-color);
+    font-family: var(--body);
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+}
+.home-main .home-main-banner-container button a {
+    color: white;
+}
+
+/* EMPIEZA EL CÓDIGO DE blogs.html */
+
+.blogs-main {
+    display: grid;
+    grid-template-columns: 1fr 6fr 1fr;
+    position: relative;
+}
+
+.blogs-main .blogs-news-container {
+    display: grid;
+    grid-column: 1 / 4;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    margin-top: 40px;
+}
+.blogs-main .blogs-news-container .blogs-main-new {
+    grid-column: 2 / 8;
+}
+
+.blogs-main .blogs-news-container .blogs-main-new img {
+    width: 100%;
+    height: 50vw;   
+    grid-column: 2 / 8;
+    object-fit: cover ;
+}
+
+

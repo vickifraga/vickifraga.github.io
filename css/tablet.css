@@ -1,0 +1,15 @@
+nav .profile-link {
+    width: 80px;
+    font-size: 1.2rem;
+}
+.home-main .home-main-banner-container h2{
+    font-size: 3rem;
+    margin-bottom: 0;
+}
+.home-main .home-main-banner-container p{
+    font-size: 1.5rem;
+    margin-top: 0;
+}
+header .icons span{
+    font-size: 25px;
+}

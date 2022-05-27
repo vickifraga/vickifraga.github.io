@@ -1,0 +1,27 @@
+
+.nav-logo-container {
+    width: 90px;
+    height: 100px;
+}
+
+.nav-logo-container a p{
+    margin: 0;
+    position: absolute;  
+    font-size: 20px; 
+}
+.nav-logo-container a p:first-child{
+    bottom: 10px;
+    left: 12px;
+}
+.nav-logo-container a p:last-child{
+    bottom: -1px;  
+    left: 5px; 
+}
+.home-main .home-main-banner-container h2{
+    font-size: 4rem;
+    margin-bottom: 0;
+}
+.home-main .home-main-banner-container p{
+    font-size: 2rem;
+    margin-top: 0;
+}
