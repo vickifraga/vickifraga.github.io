@@ -8,7 +8,7 @@
     <!-- ACHIVOS CSS -->
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="./css/mediumphone.css" media="(min-width: 420px)">
-    <link rel="stylesheet" href="./css/tablet.css" media="(min-width: 930px)"> 
+    <link rel="stylesheet" href="./css/tablet.css" media="(min-width: 900px)"> 
     <link rel="stylesheet" href="./css/desktop.css" media="(min-width: 1200px)"> 
     <!-- SE EMPIEZA HACIENDO LA ARQUITECTURA DEL DOCUMENTO -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -21,8 +21,10 @@
 <body>
     <header>
         <section class="nav-logo-container">
-                <a href="/"><p>vicki</p><p>fraga</p></a>
-        </section>
+            <a href="./index.html"><p>vicki</p><p>fraga</p></a>
+         </section>
+         
+        
         <nav> <!--EL NAV ES EL QUE SE USA PARA NAVEGAR, NO NECESARIAMENTE TODO EL HEADER -->
             <section class="profile-link">
                 <a href="perfil.html">About me</a>
@@ -41,70 +43,72 @@
 
     <main class="blogs-main">
         <section class="blogs-news-container">
-            <div class="blogs-main-new">
-                <h2>News</h2>
-                <div> 
-
-                    <div class="blogs-news-img-container">
-                        <img src="./img/main-news-img.png" alt="Una imagen de computadoras, videojuegos y teclados">
-                    </div>
-                  
-                    <div class="blogs-news-info-container">
-                        <h3>Blog title</h3>
-                        <p>In here we are going to describe what is our project about. It should be fun and to the point, we need a killing grafic that shows how cool our project is</p>
-                        <button class="blogs-button">Read more</button>
-                    </div>
+            
+                <div class="blogs-news-banner">
+                    <h2>News</h2>
                 </div>
-            </div>
+                
+                <div class="blogs-news-img-container">
+                    <img src="./img/news.jpg" alt="Una imagen de computadoras, videojuegos y teclados">
+                </div>
+                
+                <div class="blogs-news-info-container">
+                    <h3>Blog title</h3>
+                    <p>In here we are going to describe what is our project about. It should be fun and to the point, we need a killing grafic that shows how cool our project is</p>
+                    <button class="blogs-button"><a href="./blog.html">Read more</a></button>
+                </div>
+                
+            
         </section>
 
         <section class="blogs-post-container">
-            <h3></h3>
-            <div>
+            <h3>My proyects</h3>
+            <div class="blogs-post-grid">
                  
                 <article class="post-container">
-                    <img src="" alt="">
-                    <p></p>
-                    <p></p>
-                    <a href=""></a>
+                    <img src="./img/post-1.png" alt="">
+                    <p class="post-container--title">Proyecto Jackson</p>
+                    <p>Este es el proyecto Jackson, este es el proyecto jakson. Este es el proyecto Jackson, este es el proyecto jakson. </p>
+                    <a href="./blog.html" class="blogs-button post-button">Read More</a>
                 </article>
-                <article>
-                    <img src="" alt="">
-                    <p></p>
-                    <p></p>
-                    <a href=""></a>
+                <article class="post-container">
+                    <img src="./img/post-2.png" alt="">
+                    <p class="post-container--title">Proyecto Chase</p>
+                    <p>Este es el proyecto Chase, este es el proyecto Chase. Este es el proyecto Chase, este es el proyecto Chase.</p>
+                    <a href="./blog.html" class="blogs-button post-button">Read More</a>
                 </article>
-                <article>
-                    <img src="" alt="">
-                    <p></p>
-                    <p></p>
-                    <a href=""></a>
+                <article class="post-container">
+                    <img src="./img/post-3.png" alt="">
+                    <p class="post-container--title">Proyecto Underwood</p>
+                    <p>Este es el proyecto Underwood, este es el proyecto Underwood. Este es el proyecto Underwood, este es el proyecto Underwood.</p>
+                    <a href="./blog.html" class="blogs-button post-button">Read More</a>
                 </article>
-                <article>
-                    <img src="" alt="">
-                    <p></p>
-                    <p></p>
-                    <a href=""></a>
+                <article class="post-container">
+                    <img src="./img/dillon-shook-mY3_bvR74fI-unsplash.jpg" alt="">
+                    <p class="post-container--title">Proyecto Valdez</p>
+                    <p>Este es el proyecto Valdez, este es el proyecto Valdez. Este es el proyecto Valdez, este es el proyecto Valdez.</p>
+                    <a href="./blog.html" class="blogs-button post-button">Read More</a>
                 </article>
-                <article>
-                    <img src="" alt="">
-                    <p></p>
-                    <p></p>
-                    <a href=""></a>
+                <article class="post-container">
+                    <img src="./img/grovemade-RvPDe41lYBA-unsplash.jpg" alt="">
+                    <p class="post-container--title">Proyecto Grace</p>
+                    <p>Este es el proyecto Grace, este es el proyecto Grace. Este es el proyecto Grace, este es el proyecto Grace. </p>
+                    <a href="./blog.html" class="blogs-button post-button">Read More</a>
                 </article>
-                <article>
-                    <img src="" alt="">
-                    <p></p>
-                    <p></p>
-                    <a href=""></a>
+                <article class="post-container">
+                    <img src="./img/post-1.png" alt="">
+                    <p class="post-container--title">Proyecto McLean</p>
+                    <p>Este es el proyecto McLean, este es el proyecto McLean. Este es el proyecto McLean, este es el proyecto McLean.</p>
+                    <a href="./blog.html" class="blogs-button post-button">Read More</a>
                 </article>
                  
             </div>
         </section>
 
-
     </main>
 
-    <footer></footer>
+    <footer>
+        <p>Created by @vickifraga</p>
+    </footer>
 </body>
 </html>

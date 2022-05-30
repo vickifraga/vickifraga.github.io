@@ -4,3 +4,13 @@ header .header-icon-container .icons {
 nav .profile-link {
     width: 50px;
 }
+
+/* LAYOUT DE blogs.html */
+.blogs-post-container .post-container{
+    width: calc(50% - 5vw);    
+    padding: 40px 10px;
+}
+.blogs-post-container .post-container img {
+    height: 30vw;
+    max-height: 200px;
+}

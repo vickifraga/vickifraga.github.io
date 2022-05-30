@@ -11,5 +11,12 @@ nav .profile-link {
     margin-top: 0;
 }
 header .icons span{
-    font-size: 25px;
+    font-size: 20px;
 }
+
+/* LAYOUT DE blogs.html */
+.blogs-post-container .post-container{
+    width: 30%;    
+    padding: 40px 10px;
+}
+

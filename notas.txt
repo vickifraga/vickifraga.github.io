@@ -1,0 +1,8 @@
+El procedimiento iterativo que hemos hecho y que tiene como principio Degranda es:
+
+1.identificar o maquetar mentalmente
+2.estructurar
+3.agregar clases
+4.implementar estilos
+
+
