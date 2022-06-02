@@ -14,3 +14,12 @@ nav .profile-link {
     height: 30vw;
     max-height: 200px;
 }
+
+/* LAYOUT BLOGSPOT ENTRY */
+.blogpost-main-image {
+    height: calc(150px + 20vw);
+    top: calc(-75px - 10vw);
+}
+.blospost-billboard-container {
+    height: calc(250px + (20vw));
+}

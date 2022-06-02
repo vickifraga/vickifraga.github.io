@@ -3,7 +3,7 @@ nav .profile-link {
     font-size: 1.2rem;
 }
 .home-main .home-main-banner-container h2{
-    font-size: 3rem;
+    font-size: 3.5rem;
     margin-bottom: 0;
 }
 .home-main .home-main-banner-container p{
@@ -19,4 +19,11 @@ header .icons span{
     width: 30%;    
     padding: 40px 10px;
 }
-
+.blogpost-article-image {
+    width: 45%;
+    min-width: 200px;
+    
+}
+.blogpost-article {
+    justify-content: space-between;
+}
