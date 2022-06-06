@@ -1,6 +1,6 @@
 :root {
     /* Colores */
-    --my-white: #ecf0f0;
+    --beige:  #eae8e5;
     --almost-black: #262626;
     --primary-color: #B3001B;
     --secondary-color: #255C99;
@@ -42,9 +42,14 @@ html {
 header{
     height: 40px;
     width: 100%;
-    
     display: flex;
     flex: auto auto auto;
+    z-index: 2;
+    position: absolute;
+}
+main {
+    position: relative;
+    top: 40px;
 }
 p {
     font-size: 1.2rem;
@@ -55,6 +60,7 @@ p {
     background-color: var(--primary-color);
     position: absolute;
     margin-left: 10px;
+    margin-bottom: 5px;
 }
 .nav-logo-container a{
     width: 60px;
@@ -165,12 +171,11 @@ header .header-icon-container .icons {
 
 .blogs-main .blogs-news-container {
     width: 100%;
-    height: 400px;
+    height: 600px;
     display: grid;
     grid-column: 1 / 4;
     grid-template-columns: repeat(10, 1fr);
     grid-template-rows: repeat(10, 10fr);
-    margin-top: 40px;
     background-color: white;
 }
 .blogs-main .blogs-news-container .blogs-news-banner{
@@ -350,6 +355,70 @@ EMPIEZA EL CODIGO PARA LOS BLOGPOSTS
 
 }
 
+
+/* PROFILE CODE BEGINS */
+
+.profile-main {
+    display: grid;
+    grid-template-columns: 1fr 10fr 1fr;
+    background-color: white;
+}
+.profile-banner-container{
+    width: 100%;
+    height: 50vh;
+    max-height: 600px;
+    grid-column: 1 / 4;
+}
+.profile-banner-image {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.profile-banner-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.profile-banner-container p {
+    position: absolute;
+    font-family: var(--title);
+    font-size: 10vh;
+    color: white; 
+    margin: 0;
+}
+.profile-banner-letters a{
+    width: 300px;
+    height: 20vh;
+    margin-left: 10vw; 
+    position: relative;
+    top: -25vh;
+    z-index: 2;
+}
+.profile-banner-letters a p:first-child {
+    left: 10px;
+}
+.profile-banner-letters a p:last-child {
+    left: -8px;
+    top: 5.5vh;
+}
+
+.profile-text-container {
+    grid-column: 2 / 3;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.profile-text-container h2 {
+    font-family: var(--title);
+    font-size: 3rem;
+}
+
+.profile-contact {
+    grid-column: 1 /4;
+}
+
+/* CONTACT CODE BEGINS */
+
 .contact-container {
     width: 100%;
     height: 100px;
@@ -374,10 +443,12 @@ EMPIEZA EL CODIGO PARA LOS BLOGPOSTS
 footer {
     width: 100%;
     height: 50px;
+    margin-top: 40px;
     background-color: var(--light-prim-color);
     display: flex;
     align-items: center;
     justify-content: center ;
+
 }
 
 footer p {
